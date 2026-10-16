@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="description" content="Divadlo Vulkán — divadlo expertů na realitu. Poznejte naše tvůrce a inscenace.">
+  <title>VULKAAAN — Divadlo expertů na realitu</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,700;1,800;1,900&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="socials" aria-label="Sociální sítě">
+      <a href="https://www.facebook.com/" aria-label="Facebook">f</a><a href="https://www.instagram.com/" aria-label="Instagram">◎</a>
+    </div>
+    <div class="header-main">
+      <a class="brand" href="#home" aria-label="VULKAAAN, úvodní stránka"><span class="brand-name">VULKAAAN</span><span class="brand-tag">DIVADLO EXPERTŮ<br>NA REALITU</span></a>
+      <button class="menu-toggle" aria-label="Otevřít navigaci" aria-expanded="false"><span></span><span></span></button>
+      <nav class="main-nav" aria-label="Hlavní navigace">
+        <a href="#o-divadle" data-page="o-divadle">O divadle</a>
+        <a href="#herci" data-page="herci">Herci a tvůrci</a>
+        <a href="#kontakt" data-page="kontakt">Kontakt</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page home-page active" id="home" data-view="home" aria-label="Úvodní stránka">
+      <div class="hero">
+        <article class="hero-card">
+          <p class="eyebrow">Divadlo expertů na realitu</p>
+          <h1><span class="marker">Temná Muhehe</span></h1>
+          <p class="hero-copy">Imerzivní postdrama z budoucnosti. Kreativec Antony odchází těsně před svým „burnoutem“ z globální komunikační agentury a náhodně narazí na dřívější lásku, jíž říkal Temná Muhehe. Z pozvání na kafe se tak nečekaně stává futuristická romance v éře blížící se nesmrtelnosti lidstva…</p>
+          <p class="season"><span class="marker">Premiéra sezóny</span><br><span class="marker">2024/2025</span></p>
+        </article>
+        <div class="hero-pagination" aria-label="Výběr úvodního motivu">
+          <button class="hero-dot" aria-label="Motiv jedna" aria-pressed="true"></button><button class="hero-dot selected" aria-label="Motiv dva" aria-pressed="false"></button><button class="hero-dot" aria-label="Motiv tři" aria-pressed="false"></button>
+        </div>
+      </div>
+      <div class="home-teaser"><span class="mono">DIVADLO VULKÁN · PRAHA</span><p>Současné příběhy. Blízká budoucnost.<br><span class="marker">Divadlo, které se děje kolem vás.</span></p><a href="#o-divadle" data-page="o-divadle" class="round-arrow" aria-label="Více o divadle">↘</a></div>
+    </section>
+
+    <section class="page editorial-page" id="o-divadle" data-view="o-divadle">
+      <div class="page-kicker mono">VULKAAAN / 01 — O NÁS</div>
+      <div class="editorial-layout">
+        <figure class="editorial-art"><img src="assets/divadlo-zakulisi.png" alt="Černobílý záběr ze zákulisí divadelní tvorby, při kterém se tým připravuje na scénu"></figure>
+        <div class="editorial-copy"><h1>O divadle</h1><p class="lead"><span class="marker">Divadlo expertů na realitu</span> vzniklo v roce 2024 a založili ho společně autor Dan Bek s producentem Petrem Filišteinem a herci Karolínou Půčkovou a Kajetánem Písařovicem.</p><p>Umělecký repertoár tvoří autorské inscenace ze současnosti a blízké budoucnosti. Dramaturgie se zaměřuje na vysoce aktuální texty, které vyžadují adekvátní herecké ztvárnění. Naše divadlo směřuje k lehce alternativní činohře, ke které si najde cestu i širší publikum.</p><div class="signature">„Realita je teprve začátek.“</div></div>
+      </div>
+    </section>
+
+    <section class="page cast-page" id="herci" data-view="herci">
+      <div class="page-kicker mono">VULKAAAN / 02 — LIDÉ NA JEVIŠTI</div><h1 class="page-title">Herci a tvůrci<span class="marker">.</span></h1>
+      <div class="cast-grid">
+        <article class="cast-member"><img src="assets/dan-bek.jpg" alt="Portrét Dana Beka"><div><p class="mono">DRAMATIK · UMĚLECKÝ ŠÉF</p><h2><span class="marker">Dan Bek</span></h2><p>Autor literárně dramatické tvorby pro Český rozhlas Vltava. Jeho hry zahrnují <em>Temnou Muhehe</em>, <em>Luisa Freund letí do Améru</em> a <em>Syndrom Tako-Tsubo</em>. Spolupracuje také se spolkem SpoluHra.</p></div></article>
+        <article class="cast-member"><img src="assets/stepan-chaloupka.jpg" alt="Portrét Štěpána Chaloupky"><div><p class="mono">REŽISÉR</p><h2><span class="marker">Štěpán Chaloupka</span></h2><p>Absolvent režie činoherního divadla na DAMU. Působil jako šéf činohry Divadla F. X. Šaldy v Liberci a umělecký šéf Městského divadla Kladno. Režíroval na řadě pražských i regionálních scén.</p></div></article>
+        <article class="cast-member"><img src="assets/pavel-tesar.jpg" alt="Portrét Pavla Tesaře"><div><p class="mono">HEREC</p><h2><span class="marker">Pavel Tesař</span></h2><p>Vystudoval alternativní a loutkové divadlo na DAMU a spoluzakládal Dejvické divadlo. Od roku 1996 působí v Divadle v Dlouhé. Účinkuje v rozhlase a věnuje se dabingu.</p></div></article>
+        <article class="cast-member"><img src="assets/karolina-puckova.jpg" alt="Portrét Karolíny Půčkové"><div><p class="mono">HEREČKA</p><h2><span class="marker">Karolína Půčková</span></h2><p>Vystudovala herectví a moderování na Vyšší odborné škole herecké. Hrála v Komorní činohře a spolupracovala se soubory Tygr v tísni, Divadlo Letí, Depresivní děti touží po penězích i dalšími. Věnuje se také rozhlasovému herectví.</p></div></article>
+        <article class="cast-member"><img src="assets/kajetan-pisarovic.jpg" alt="Portrét Kajetána Písařovice"><div><p class="mono">HEREC</p><h2><span class="marker">Kajetán Písařovic</span></h2><p>Působil v Divadle Petra Bezruče, Těšínském divadle, Divadle Komedie, Švandově divadle i dalších souborech. Objevil se ve filmech <em>Jan Hus</em> a <em>Zádušní oběť</em>, věnuje se rozhlasu a moderuje na Českém rozhlasu Vltava.</p></div></article>
+        <article class="cast-member"><img src="assets/jakub-hajek.jpg" alt="Portrét Jakuba Hájka s kytarou"><div><p class="mono">HUDEBNÍK</p><h2><span class="marker">Jakub Hájek</span></h2><p>Věnuje se autorské hudbě a sound designu pro film, divadlo a multimediální projekty. Spolupracuje na <em>Temné Muhehe</em>, složil hudbu k filmu <em>Smečka</em> a pořadům České televize. Působil v kapelách Atari Terror a Cocotte Minute.</p></div></article>
+        <article class="cast-member"><img src="assets/david-schwager.jpg" alt="David Schwager s kolegou při hudební spolupráci"><div><p class="mono">TECHNICKÝ SUPPORT · PRODUKCE</p><h2><span class="marker">David Schwager</span></h2><p>Road manažer a producent, dříve také dramaturg M-klubu Valmez a festivalu Valašský špalíček. Stál u dramaturgie pražských hudebních klubů a je frontmanem skupiny Tichonov.</p></div></article>
+        <article class="cast-member"><div class="member-mark" role="img" aria-label="Monogram Michala Řezáče" data-initials="MŘ"></div><div><p class="mono">SVĚTELNÝ DESIGN</p><h2><span class="marker">Michal Řezáč</span></h2><p>Technik, osvětlovač a zvukař. Od roku 2003 spolupracuje s Divadlem Continuo na letních divadelních projektech. Ve Spolku VULKAAAN se podílí na inscenaci <em>Temná Muhehe</em>.</p></div></article>
+        <article class="cast-member"><div class="member-mark" role="img" aria-label="Monogram Anny Ciglia" data-initials="AC"></div><div><p class="mono">PRODUKČNÍ SPOLKU VULKAAAN</p><h2><span class="marker">Anna Ciglia</span></h2><p>Spoluzakladatelka Divadelního spolku Posun. Podílela se na produkci inscenací <em>Úplné zatmění</em>, <em>Racek</em> nebo <em>Přelet nad kukaččím hnízdem</em>. Má zkušenosti také s filmovou a televizní produkcí.</p></div></article>
+        <article class="cast-member"><img src="assets/petra-svecova.jpg" alt="Portrét Petry Švecové s fotoaparátem"><div><p class="mono">PRODUKCE SPOLKU VULKAAAN</p><h2><span class="marker">Petra Švecová</span></h2><p>V českém filmu působí v oblasti produkce a organizace natáčení jako produkční, zástupkyně vedoucího produkce i vedoucí natáčení. Mezi vybrané projekty patří <em>Abstinent</em>, <em>Dabing Street</em>, <em>Bába z ledu</em> a <em>Vybíjená</em>.</p></div></article>
+      </div>
+    </section>
+
+    <section class="page contact-page" id="kontakt" data-view="kontakt">
+      <div class="contact-card"><div class="contact-heading"><p class="mono">SPOJME SE</p><h1>Divadlo<br><span class="marker">Vulkán</span></h1><span class="contact-star" aria-hidden="true">✳</span></div><div class="contact-links"><a class="contact-email" href="mailto:produkce@vulkaaan.cz"><span class="mono">E-MAIL</span><strong>produkce@vulkaaan.cz</strong><span aria-hidden="true">↗</span></a><div class="social-links"><span class="mono">SLEDUJTE NÁS</span><a href="https://www.facebook.com/" target="_blank" rel="noreferrer">Facebook <span aria-hidden="true">↗</span></a><a href="https://www.instagram.com/" target="_blank" rel="noreferrer">Instagram <span aria-hidden="true">↗</span></a></div></div></div>
+    </section>
+  </main>
+  <footer class="site-footer"><a class="footer-brand" href="#home">VULKAAAN</a><span>Divadlo expertů na realitu</span><a href="#kontakt" data-page="kontakt">Napište nám ↗</a><span class="mono">© VULKAAAN 2025</span></footer>
+  <script src="app.js"></script>
+</body>
+</html>
