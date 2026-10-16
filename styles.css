@@ -56,3 +56,10 @@
 .contact-arrow{font-family:var(--sans);font-style:normal;font-weight:400}
 @media(max-width:640px){.contact-star{display:none}}
 @media(max-width:640px){.hero{min-height:650px;align-items:flex-start;padding:28px 18px 42px}}
+
+
+/* Mobile carousel: narrower panel and balanced space around the controls. */
+@media(max-width:640px){
+  .hero{min-height:unset;align-items:flex-start;justify-content:center;padding:28px 28px 66px}
+  .hero-card{max-width:420px}
+}
