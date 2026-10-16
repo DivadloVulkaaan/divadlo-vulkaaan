@@ -50,3 +50,5 @@
 .hero-dot.selected{background:transparent}
 .hero-dot.selected:before{background:var(--acid)}
 @media(max-width:380px){.cast-member{grid-template-columns:82px minmax(0,1fr);gap:14px}.cast-member h2{font-size:27px}.cast-member p{font-size:14px}.cast-member>div>p:first-child{font-size:9px}.hero-card{padding:27px 21px}.hero h1{font-size:34px}.hero-copy{font-size:14px}.header-main{padding-left:15px;padding-right:15px}.brand-name{font-size:25px}.brand-tag{font-size:8px}.site-footer{font-size:11px}}
+.contact-arrow{font-family:var(--sans);font-style:normal;font-weight:400}
+@media(max-width:640px){.contact-star{display:none}}
