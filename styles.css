@@ -18,7 +18,7 @@
 .contact-heading{position:relative;z-index:1}
 .contact-heading .mono{color:#686868}
 .contact-heading h1{font-size:clamp(66px,9vw,112px);line-height:.78;letter-spacing:-.08em;font-style:italic;margin:32px 0 0}
-.contact-star{position:absolute;right:12px;bottom:-12px;font-size:52px;color:var(--acid);text-shadow:1px 1px var(--ink)}
+.contact-star{position:absolute;right:-58px;bottom:-12px;font-size:52px;color:var(--acid);text-shadow:1px 1px var(--ink)}
 .contact-links{position:relative;z-index:1}
 .contact-email{display:grid;grid-template-columns:1fr auto;align-items:center;gap:8px 18px;border-bottom:1px solid var(--ink);padding:0 0 22px}
 .contact-email .mono{grid-column:1/-1;color:#777}
