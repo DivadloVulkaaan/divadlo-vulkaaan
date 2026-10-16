@@ -63,3 +63,11 @@
   .hero{min-height:unset;align-items:flex-start;justify-content:center;padding:28px 28px 66px}
   .hero-card{max-width:420px}
 }
+
+
+/* Match every mobile action arrow to the thin contact arrow. */
+.round-arrow,.text-link span,.button span{display:inline-block;position:relative;width:18px;height:18px;flex:0 0 18px;font-size:0!important;line-height:0;color:var(--ink);vertical-align:middle;border:0;border-radius:0;background:transparent}
+.round-arrow:before,.text-link span:before,.button span:before{content:"";position:absolute;width:13px;height:1px;left:2px;top:9px;background:currentColor;transform:rotate(-45deg)}
+.round-arrow:after,.text-link span:after,.button span:after{content:"";position:absolute;width:6px;height:6px;right:2px;top:2px;border-top:1px solid currentColor;border-right:1px solid currentColor}
+.round-arrow:hover{background:transparent}
+@media(max-width:640px){.site-footer .contact-arrow{width:18px;height:18px}}
